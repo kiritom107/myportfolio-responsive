@@ -1,6 +1,6 @@
 
 import './App.css';
-import photo from './images/photo.jpeg'
+
 import paninoteka from './images/paninoteka.jpg'
 import todos from './images/Todos.png'
 import youtubeclone from './images/youtubeclone.png'
