@@ -1,11 +1,13 @@
 
-
+@media screen and (max-width: 400px){
   body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
   }
+}
+  
   
   section {
     background-color: white;
@@ -94,11 +96,13 @@
     background-color: #A9A9A9;
     color: #808080;
   }
-  
-  .socials {
-    padding-bottom: 200px;
+  @media only screen and (max-width: 400px){
+
+    .socials {
+      padding-bottom: 200px;
+    }
+    
   }
-  
 
 .logo {
   height: 80px;
@@ -144,7 +148,7 @@
   justify-content: space-around;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 400px) {
   .project-container {
       display: flex;
       flex-wrap: wrap;
@@ -171,19 +175,20 @@ hr {
 a {
   text-decoration: none;
   color: white;
+  
 }
 
 .hamburger {
   display: none;
 }
 
-.hamburger:focus{
+.btn:focus{
   outline: 0;
 }
 
 
-@media only screen and (max-width: 1000px) {
-  .btn {
+@media only screen and (max-width: 400px) {
+  .hamburger {
       display: block;
       border: 0;
       background-color: transparent;
@@ -192,7 +197,6 @@ a {
       margin: 20px;
       align-self: flex-end;
   }
-
   ul {
       display: none;
       background-color: #2b2c38;
@@ -213,9 +217,4 @@ a {
       display: none;
   }
 }
-@media screen and (max-width:1200px)and (max-width: 480px){
-  body{
-  display: flex;
-    
-  }
-}
+

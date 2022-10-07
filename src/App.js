@@ -14,7 +14,7 @@ function App() {
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact-me">Contact</a></li>
         </ul>
-        <button className="btn" id="btn">
+        <button className="hamburger" id="hamburger">
           <i className="fas fa-bars"></i>
         </button>
       </nav>
@@ -33,10 +33,11 @@ function App() {
           </a></div>
         </div>
       </div>
-    </section><section className="sub-section" id="about-me">
+    </section>
+    <section className="sub-section" id="about-me">
         <div className="information">
           <h2>About Me</h2>
-          <p>Ciao. Mi chiamo Ruben Berhé. Sono un junior Software Developer a cui piace scoprire nuove tecnologie e utilizzare quest'ultimi per creare siti web.</p>
+          <p>Ciao. Mi chiamo Ruben Berhé. Sono un Junior Software Developer a cui piace scoprire nuove tecnologie e utilizzare quest'ultimi per creare siti web.</p>
         </div>
         <div className="headshot-container">
           
