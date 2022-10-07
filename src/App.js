@@ -1,6 +1,6 @@
 
 import './App.css';
-import photo from './images/photo.jpeg'
+
 import paninoteka from './images/paninoteka.jpg'
 import todos from './images/Todos.png'
 import youtubeclone from './images/youtubeclone.png'
@@ -39,7 +39,7 @@ function App() {
           <p>Ciao. Mi chiamo Ruben Berhé. Sono un junior Software Developer a cui piace scoprire nuove tecnologie e utilizzare quest'ultimi per creare siti web.</p>
         </div>
         <div className="headshot-container">
-          <img className="headshot" src={photo}  alt="" />
+          
         </div>
       </section><section className="sub-section-alternative" id="projects">
         <h2>Projects</h2>

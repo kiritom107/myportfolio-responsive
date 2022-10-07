@@ -3,6 +3,8 @@
   body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   section {
@@ -148,6 +150,7 @@
       flex-wrap: wrap;
   }
 }
+
 
 .project-image {
   margin-top: 25px;
