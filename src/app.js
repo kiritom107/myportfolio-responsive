@@ -39,7 +39,7 @@ function App() {
           <p>Ciao. Mi chiamo Ruben Berhé. Sono un junior Software Developer a cui piace scoprire nuove tecnologie e utilizzare quest'ultimi per creare siti web.</p>
         </div>
         <div className="headshot-container">
-          <img className="headshot" src={photo}  alt="" />
+
         </div>
       </section><section className="sub-section-alternative" id="projects">
         <h2>Projects</h2>
