@@ -64,7 +64,7 @@ function App() {
           <div className="project-card">
             <img className="project-image" src={paninoteka} alt="Project One Image" />
             <h3>Paninoteka</h3>
-            <p class="subtext">Durante l'alternanza scuola-lavoro,ho sviluppato una webApp per ordinare cibo da asporto, utilizzando Angular(front-end) ed express.js(back-end)
+            <p className="subtext">Durante l'alternanza scuola-lavoro,ho sviluppato una webApp per ordinare cibo da asporto, utilizzando Angular(front-end) ed express.js(back-end)
               Il progetto è stato rilasciato su Heroku.</p>
             <hr />
             <p className="subtext"><a className="project-link" href="http://paninotekaclient.herokuapp.com/">Vedi il sito</a></p>
