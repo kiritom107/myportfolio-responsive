@@ -74,8 +74,7 @@ function App() {
           <div className="project-card">
             <img className="project-image" src={dashboard} alt="Project One Image" />
             <h3>Dashboard</h3>
-            <p className="subtext">Dashboard è un sito dashboard di amministrazione creato con React, utilizzando syncfusion e TailwindCSS(CSS
-struttura).</p>
+            <p className="subtext">Dashboard è un sito dashboard di amministrazione creato con React, utilizzando syncfusion e TailwindCSS(CSS Framework).</p>
             <hr />
             <p className="subtext"><a className="project-link" href="https://reactdashboardwithsyncfunction.netlify.app">Vedi il sito</a></p>
           </div>
