@@ -4,6 +4,8 @@ import './App.css';
 import paninoteka from './images/paninoteka.jpg'
 import todos from './images/Todos.png'
 import youtubeclone from './images/youtubeclone.png'
+import dashboard from './images/dashboard.png'
+
 function App() {
 
   return (
@@ -59,7 +61,7 @@ function App() {
             <h3>Todolist</h3>
             <p className="subtext">Ho creato una Todolist dove cliccando sul bottone "+salve nome", comparirà una popup dove si puo scrivere una task da fare. Ho utilizzato React con Typescript. PS:ho rifatto la stessa Todolist ma in angular(lo trovate su github).</p>
             <hr />
-            <p className="subtext"><a className="project-link" href="https://todolisttsx.herokuapp.com/">Vedi il sito</a></p>
+            <p className="subtext"><a className="project-link" href="https://todolistinreacttsx.netlify.app/">Vedi il sito</a></p>
           </div>
           <div className="project-card">
             <img className="project-image" src={paninoteka} alt="Project One Image" />
@@ -68,6 +70,14 @@ function App() {
               Il progetto è stato rilasciato su Heroku.</p>
             <hr />
             <p className="subtext"><a className="project-link" href="http://paninotekaclient.herokuapp.com/">Vedi il sito</a></p>
+          </div>
+          <div className="project-card">
+            <img className="project-image" src={dashboard} alt="Project One Image" />
+            <h3>Dashboard</h3>
+            <p className="subtext">Dashboard è un sito dashboard di amministrazione creato con React, utilizzando syncfusion e TailwindCSS(CSS
+struttura).</p>
+            <hr />
+            <p className="subtext"><a className="project-link" href="https://reactdashboardwithsyncfunction.netlify.app">Vedi il sito</a></p>
           </div>
         </div>
       </section><footer id="contact-me">
