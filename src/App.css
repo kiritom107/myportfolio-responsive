@@ -50,7 +50,7 @@ h2 {
 
 p {
   margin: 0;
-  font-size: 30px;
+font-size: 1.5rem;
   font-weight: 300;
 }
 
@@ -208,3 +208,5 @@ a {
       display: none;
   }
 }
+
+
